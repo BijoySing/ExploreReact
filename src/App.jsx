@@ -9,6 +9,8 @@ import Counter from './Counter'
 import User from './User'
 import OnlyUser from './OnlyUser'
 import Friends from './Friends'
+import Posts from './Posts'
+// import ShowPost from './ShowPost'
 function App() {
   let singers = [
     {
@@ -32,9 +34,11 @@ function App() {
   return (
     <>
     <h1 className='hi'> React</h1>
-    <Friends></Friends>
-    <User></User>
-    <Counter></Counter>
+    <Posts></Posts>
+    {/* <ShowPost></ShowPost> */}
+    {/* <Friends></Friends> */}
+    {/* <User></User> */}
+    {/* <Counter></Counter> */}
     
       {/* <h1 className='hi'> React</h1>
       <Object1> </Object1>
